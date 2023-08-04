@@ -15,7 +15,7 @@ function generateTimeblocks() {
 
         const hourDiv = document.createElement("div");
         hourDiv.classList.add("col-1", "hour");
-        hourDiv.textContent = '${hour}:00';
+        hourDiv.textContent = `${hour}:00`;
         timeBlockDiv.appendChild(hourDiv);
 
         const eventDiv = document.createElement("textarea");
@@ -29,7 +29,7 @@ function generateTimeblocks() {
             eventDiv.classList.add("future");
         }
 
-        const savedEvent = localStorage.getItem('event-${hour}');
+        const savedEvent = localStorage.getItem(`event-${hour}`);
         if (savedEvent) {
             eventDiv.value = savedEvent;
         }
@@ -38,11 +38,11 @@ function generateTimeblocks() {
 
         const saveBtn = document.createElement("button");
         saveBtn.classList.add("col-1", "saveBtn");
-        saveBtn.innerHTML = '<i class="fas fa-save"></i>';
+        saveBtn.innerHTML = `<i class="fas fa-save"></i>`;
 
         saveBtn.addEventListener("click", function () {
             const eventText = eventDiv.value;
-            localStorage.setItem('event-${hour}', eventText);
+            localStorage.setItem(`event-${hour}`, eventText);
         });
 
 
