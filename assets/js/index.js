@@ -9,6 +9,7 @@ function generateTimeblocks() {
     const startTime = 9;
     const endTime = 17;
 
+    // JS selects container HTML element
     const container = document.querySelector(".container");
     console.log("container", container);
 
@@ -20,6 +21,7 @@ function generateTimeblocks() {
         console.log("timeblock", timeBlockDiv.children);
         timeBlockDiv.classList.add("row", "time-block");
 
+        // generates timeblocks
         const hourDiv = document.createElement("div");
         hourDiv.classList.add("col-1", "hour");
         hourDiv.textContent = `${hour}:00`;
