@@ -30,15 +30,14 @@ function generateTimeblocks() {
         eventDiv.classList.add("col-10", "description");
 
         if (hour < dayjs().hour()) {
-            console.log("past", hour, eventDiv);
             eventDiv.classList.add("past");
+            eventDiv.classList.remove("present", "future");
         } else if (hour === dayjs().hour()) {
-            eventDiv.classList.remove("future")
             eventDiv.classList.add("present");
-            console.log("present", hour, eventDiv);
+            eventDiv.classList.remove("past", "future");
         } else {
             eventDiv.classList.add("future");
-            console.log("future", hour, eventDiv);
+            eventDiv.classList.remove("past", "present");
         }
 
         // this section allows for saved event text from internal storage and populates area with saved text
