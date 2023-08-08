@@ -1,10 +1,10 @@
 # Personal-Portfolio
 ## Description
-This repository houses a captivating and interactive Code Quiz web application, designed for users to test their coding knowledge. The quiz presents users with a series of multiple-choice questions and starts a timer upon clicking the "Start" button. As users answer each question, they are immediately presented with another question. However, incorrect answers lead to time deductions, adding an element of urgency and challenge to the quiz. The game concludes either when the timer reaches zero or when all questions have been answered.
+This repository houses The Daily Planner App, whihc is a browser-based tool designed to aid busy employees in effectively managing their schedules. By integrating advanced JavaScript, DOM manipulation, and third-party APIs, the app provides an intuitive platform for scheduling events. Powered by jQuery, it offers dynamic updates of HTML and CSS to ensure a seamless user experience.
 
-To develop this application, three JavaScript files played essential roles. The index.html file provided the basic structure of the quiz, defining question elements, buttons, and score displays. The style.css file added visually appealing and user-friendly styling, ensuring a delightful user experience. The real magic, however, was embedded within the logic.js file. This JavaScript code orchestrated the entire quiz, handling the logic behind the timer, question display, answer validation, scoring, and the end-game event.
+Developed with user experience in mind, the app generates timeblocks for standard business hours, adapting as the user scrolls. These timeblocks are color-coded for instant recognition of past, present, and future events. Through jQuery, users can easily input event details, with data persistently stored in local storage to survive page refreshes.
 
-As a junior web developer, building this Code Quiz was a valuable learning experience. I sharpened my JavaScript skills and gained insights into DOM manipulation, event handling, and data management. The application introduced me to handling dynamic data using arrays and objects, as well as using local storage to save user data. This project strengthened my grasp of core JavaScript concepts and equipped me with problem-solving skills applicable to future web development endeavors. As I continue my journey, the lessons learned from this quiz application will undoubtedly prove valuable in creating more engaging and interactive web experiences for users.
+The development process involved mastering the javaScript for precise date and time manipulation within the browser. This project emphasized the importance of effectively implementing external documentation. It honed skills in advanced JavaScript techniques and demonstrated jQuery's prowess in dynamic content updates and user interaction. The Daily Planner App stands as a testament to creating practical applications by blending diverse technologies to deliver a user-centered solution.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -24,7 +24,7 @@ As a junior web developer, building this Code Quiz was a valuable learning exper
 There were no collaborators for this project.
 
 ## Link
-https://saad-054.github.io/Code_Quiz/
+https://saad-054.github.io/Daily-Planner_App/
 
 ## License
 MIT License
